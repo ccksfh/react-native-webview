@@ -31,9 +31,6 @@ export interface CustomUIManager extends UIManagerStatic {
     command: Function,
     params: object | null,
   ) => void;
-  RNCUIWebView: {
-    Commands: WebViewCommands;
-  };
   RNCWKWebView: {
     Commands: WebViewCommands;
   };
